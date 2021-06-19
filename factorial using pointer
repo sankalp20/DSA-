@@ -1,0 +1,26 @@
+
+
+usingnamespacestd;
+#include<iostream>
+ 
+intfactorial(int*f)
+{​​​​​​​​
+int k=1, *kptr=&k;
+for(int i=1;i<=*f;i++)
+    {​​​​​​​​
+        *kptr =(*kptr)*i;
+    }​​​​​​​​
+return *kptr;
+}​​​​​​​​
+ 
+intmain(){​​​​​​​​
+int n;
+int *nptr=&n;
+    cout<<"enter a number:";
+    cin>>n;
+int k =factorial(nptr);
+    cout<<"factorial:"<<k;
+ 
+return0;
+}​​​​​​​​
+
