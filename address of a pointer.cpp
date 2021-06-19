@@ -1,6 +1,3 @@
-[10:43] 20BCY10074
-    
-
 usingnamespacestd;
 #include<iostream>
  
